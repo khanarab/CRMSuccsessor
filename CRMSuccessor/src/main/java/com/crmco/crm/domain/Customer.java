@@ -1,0 +1,17 @@
+package com.crmco.crm.domain;
+
+import org.springframework.roo.addon.javabean.RooJavaBean;
+import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
+import org.springframework.roo.addon.tostring.RooToString;
+
+@RooJavaBean
+@RooToString
+@RooJpaActiveRecord
+public class Customer {
+
+    private int id;
+
+    private String fname;
+
+    private String lname;
+}

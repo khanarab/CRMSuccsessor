@@ -1,0 +1,19 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-19 00:57:56
+project --topLevelPackage com.crmco.crm --projectName CRMSuccessor --java 7 --packaging JAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-19 00:58:27
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-19 01:20:18
+hint nt
+hint 
+jpa setup --provider HIBERNATE --database MYSQL --databaseName test --userName root --password admin --
+jpa setup --provider HIBERNATE --database MYSQL --databaseName test --userName root --password admin 
+hint
+entity jpa --class ~.domain.Customer 
+field number --fieldName id --type int
+field string --fieldName fname 
+field string --fieldName lname 
+hint
+web mvc setup
+controller all --package com.crmco.crm.controller 
+
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-19 01:59:51
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-25 21:06:04

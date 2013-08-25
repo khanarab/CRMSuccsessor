@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_crmco_crm_domain_Customer" idField="id_" modelAttribute="customer" path="/customers" versionField="Version" z="HkGE4BrWQ1lWz46mew4QD2yUX2I=">
+        <field:input field="id" id="c_com_crmco_crm_domain_Customer_id" z="cB3w8k/1OSLciKEoV5RJtvt15m4="/>
+        <field:input field="fname" id="c_com_crmco_crm_domain_Customer_fname" z="rSTIk9Z2lPczfGGKDwrX1ixW31w="/>
+        <field:input field="lname" id="c_com_crmco_crm_domain_Customer_lname" z="5bc3BwDX7BHaKHk0qdo9ppsvptA="/>
+    </form:update>
+</div>
